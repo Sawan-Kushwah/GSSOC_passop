@@ -4,7 +4,7 @@ const { MongoClient, ObjectId } = require("mongodb");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const crypto = require("crypto");
-const errorMsg = require("./errorMsg"); // Importing the error messages
+const errorMsg = require("./errorsMsg"); // Importing the error messages
 
 // Encryption and Decryption keys
 const ENCRYPTION_KEY = crypto.randomBytes(32);
